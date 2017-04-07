@@ -16,7 +16,7 @@ Here's a comparison of how the different models compared on the JFK-LAX weather 
 
 ![Comparison-Weather](https://github.com/michaelaaroncantrell/Flight-Delays/blob/master/images/model-comparison.png)
 
-And here's the effect of adding the weather data.
+And here's the effect of adding the weather data to the logistic regression models.
 
 ![Logistic Regression With Weather](https://github.com/michaelaaroncantrell/Flight-Delays/blob/master/images/Weather-LR-ROC.png)
 
