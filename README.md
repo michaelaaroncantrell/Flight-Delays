@@ -14,7 +14,14 @@ The size of the bubbles correspond to the amount of influence the feature has. T
 
 Here's a comparison of how the different models compared on the JFK-LAX weather problem.
 
-![Comparison-Weather]((https://github.com/michaelaaroncantrell/Flight-Delays/blob/master/images/model-comparison.png)
+![Comparison-Weather](https://github.com/michaelaaroncantrell/Flight-Delays/blob/master/images/model-comparison.png)
+
+And here's the effect of adding the weather data.
+
+![Logistic Regression With Weather](https://github.com/michaelaaroncantrell/Flight-Delays/blob/master/images/Weather-LR-ROC.png)
+
+![Logistic Regression Without Weather](https://github.com/michaelaaroncantrell/Flight-Delays/blob/master/images/LR-ROC.png)
+
 
 
 
