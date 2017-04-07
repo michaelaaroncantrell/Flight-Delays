@@ -12,7 +12,7 @@ To solve these problems, I used several classification algorithms in scikit-lear
 
 The size of the bubbles correspond to the amount of influence the feature has. The features in orange are negatively correlated with delays. For example, an increase in visibilty in JFK correlates with an decrease in likelihood of delay. The blue bubbles have positively correlation with delay.
 
-Here's a comparison of how the different models compared on the JFK-LAX weather problem.
+Here's a comparison of how the different models compared on the JFK-LAX weather problem. I used the area under the [ROC curve](https://en.wikipedia.org/wiki/Receiver_operating_characteristic) as my metric for optimizing each model's hyper-parameters in order to allow flexibility in the business use case.
 
 ![Comparison-Weather](https://github.com/michaelaaroncantrell/Flight-Delays/blob/master/images/model-comparison.png)
 
